@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data sim = "sim_test">
+    <!--Simulation Name-->
+    <type>Sugar</type>
+
+    <!--Grid Parameters-->
+    <rows>10</rows>
+    <cols>10</cols>
+    <GridShape>Rectangle</GridShape>
+    <GridNeighbors>Total</GridNeighbors>
+    <GridEdge>Finite</GridEdge>
+    <GridOutlined>No</GridOutlined>
+
+    <!--Actor Parameters-->
+    <Threshold>10</Threshold>
+
+    <!--Color Parameters-->
+    <ActorColor1>potato</ActorColor1>
+    <ActorColor2>BLACK</ActorColor2>
+    <EmptyColor>GREY</EmptyColor>
+
+    <!--Initialization Parameters-->
+    <InitType>Probabilistic</InitType>
+    <EmptyProbability>0.5</EmptyProbability>
+    <Probability>0.3</Probability>
+
+    <Description>This is Sugarscape simulation</Description>
+
+
+
+</data>

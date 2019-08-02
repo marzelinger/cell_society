@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data sim = "sim_test">
+    <!--Simulation Name-->
+    <type>Wator</type>
+
+    <!--Grid Parameters-->
+    <rows>40</rows>
+    <cols>40</cols>
+    <GridShape>Triangle</GridShape>
+    <GridNeighbors>Total</GridNeighbors>
+    <GridEdge>Finite</GridEdge>
+    <GridOutlined>No</GridOutlined>
+
+    <!--Actor Parameters-->
+    <Threshold>1</Threshold>
+
+    <!--Color Parameters-->
+    <ActorColor1>PURPLE</ActorColor1>
+    <ActorColor2>BLUE</ActorColor2>
+    <ActorColor3>GREEN</ActorColor3>
+    <EmptyColor>GREY</EmptyColor>
+
+    <!--Initialization Parameters-->
+    <InitType>Probabilistic</InitType>
+    <EmptyProbability>0.5</EmptyProbability>
+    <Probability>0.8</Probability>
+
+    <Description>This is a WatorWorld simulation</Description>
+
+
+
+</data>

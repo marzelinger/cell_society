@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data sim = "sim_test">
+    <!--Simulation Name-->
+    <type>GameOfLife</type>
+
+    <!--Grid Parameters-->
+    <rows>3</rows>
+    <cols>3</cols>
+    <GridShape>Rectangle</GridShape>
+    <GridNeighbors>Total</GridNeighbors>
+    <GridEdge>Finite</GridEdge>
+    <GridOutlined>No</GridOutlined>
+
+    <!--Actor Parameters-->
+    <Threshold>0.5</Threshold>
+
+    <!--Color Parameters-->
+    <ActorColor1>YELLOW</ActorColor1>
+    <ActorColor2>BLACK</ActorColor2>
+    <ActorColor3>GREEN</ActorColor3>
+    <EmptyColor>GREY</EmptyColor>
+
+    <!--Initialization Parameters-->
+    <InitType>Probabilistic</InitType>
+    <EmptyProbability>0.5</EmptyProbability>
+    <Probability>0.3</Probability>
+
+    <Description>This is Game of Life simulation</Description>
+
+
+
+</data>

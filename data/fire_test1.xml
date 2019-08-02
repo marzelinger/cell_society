@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data sim = "sim_test">
+    <!--Simulation Name-->
+    <type>Fire</type>
+
+    <!--Grid Parameters-->
+    <rows>50</rows>
+    <cols>50</cols>
+    <GridShape>Rectangle</GridShape>
+    <GridNeighbors>Total</GridNeighbors>
+    <GridEdge>Toroidal</GridEdge>
+    <GridOutlined>No</GridOutlined>
+
+    <!--Actor Parameters-->
+    <Threshold>0.5</Threshold>
+
+    <!--Color Parameters-->
+    <ActorColor1>RED</ActorColor1>
+    <ActorColor2>GREEN</ActorColor2>
+    <ActorColor3>BLUE</ActorColor3>
+    <EmptyColor>YELLOW</EmptyColor>
+
+    <!--Initialization Parameters-->
+    <InitType>Probabilistic</InitType>
+    <EmptyProbability>0</EmptyProbability>
+    <Probability>0.7</Probability>
+
+    <Description>This is a fire simulation</Description>
+
+</data>

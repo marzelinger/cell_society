@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data sim = "sim_test">
+
+    <!--Grid Parameters-->
+    <rows>5</rows>
+    <cols>5</cols>
+    <GridShape>Rectangle</GridShape>
+    <GridNeighbors>Total</GridNeighbors>
+    <GridEdge>Finite</GridEdge>
+    <GridOutlined>0</GridOutlined>
+
+    <!--Actor Parameters-->
+    <Threshold>0.5</Threshold>
+    <Probability>0.3</Probability>
+    <EmptyProbability>0.5</EmptyProbability>
+    <ActorColor1>YELLOW</ActorColor1>
+    <ActorColor2>BLUE</ActorColor2>
+    <ActorColor3>GREEN</ActorColor3>
+    <EmptyColor>BLACK</EmptyColor>
+
+    <!--Initialization Parameters-->
+    <InitType>Probabilistic</InitType>
+    <EmptyProbability>0.5</EmptyProbability>
+    <Probability>0.3</Probability>
+    <InitArray>0,1,2</InitArray>
+    <InitNumStates1>1</InitNumStates1>
+    <InitNumStates2>2</InitNumStates2>
+    <InitNumStates3>0</InitNumStates3>
+
+    <!--Description-->
+    <Description>This is a simulation</Description>
+    <RadiusNeighbors>1</RadiusNeighbors>
+
+
+
+
+</data>
